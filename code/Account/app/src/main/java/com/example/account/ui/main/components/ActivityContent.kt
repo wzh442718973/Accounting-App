@@ -29,7 +29,7 @@ fun ActivityContent(context: Context, mainViewModel: MainViewModel) {
                 .fillMaxWidth()
                 .height(IntrinsicSize.Min)
         ) {
-            InvoiceHeader(num = invoices?.size)
+            InvoiceHeader(num = invoices?.size) //发票标题
             Buttons(modifier = Modifier.align(Alignment.CenterVertically), context)
         }
         Column(
